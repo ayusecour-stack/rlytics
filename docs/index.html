@@ -41,6 +41,7 @@
             Télécharger pour Windows
           </a>
           <p class="meta" id="dl-meta">Windows 10 / 11 · mises à jour automatiques</p>
+          <p class="meta smartscreen">Message « Windows a protégé votre ordinateur » ? Clique sur <b>Informations complémentaires</b> puis <b>Exécuter quand même</b>. Il n’apparaît qu’à la première installation.</p>
         </div>
         <ul class="ticks">
           <li>Compatible Easy Anti-Cheat : rien n'est injecté dans le jeu</li>
@@ -142,6 +143,10 @@
       <h2>Questions fréquentes</h2>
       <div class="faq">
         <details>
+          <summary>Windows affiche « Windows a protégé votre ordinateur », c’est normal ?</summary>
+          <p>Oui. Windows affiche ce message pour les programmes qui n’ont pas de signature payante (un certificat coûte plusieurs centaines d’euros par an). Clique sur « Informations complémentaires » puis « Exécuter quand même ». Il n’apparaît qu’à l’installation : les mises à jour automatiques ne le déclenchent pas.</p>
+        </details>
+        <details>
           <summary>Est-ce que je risque un ban ?</summary>
           <p>RLytics ne touche pas au jeu : il n'injecte rien, ne lit pas sa mémoire et n'ouvre même pas son processus. Il lit la Stats API officielle de Rocket League (prévue par Psyonix pour les overlays) et affiche une fenêtre par-dessus le jeu, comme Discord ou OBS. Il n'y a pas de garantie officielle de Psyonix, mais c'est le même principe que les overlays autorisés.</p>
         </details>
@@ -164,6 +169,10 @@
         <details>
           <summary>Comment j'ai les nouvelles versions ?</summary>
           <p>Automatiquement : RLytics vérifie au démarrage puis toutes les 3 heures, télécharge la nouvelle version en arrière-plan et l'installe quand tu le fermes (ou tout de suite avec le bouton « Redémarrer »).</p>
+        </details>
+        <details>
+          <summary>J’ai un bug, je fais comment ?</summary>
+          <p>Dans RLytics : Réglages → À propos → « Ouvrir le journal ». Ce fichier explique ce qui s’est passé (il reste sur ton PC, rien n’est envoyé). Décris le problème sur <a href="https://github.com/ayusecour-stack/rlytics/issues">la page des signalements</a> et joins le journal si tu veux.</p>
         </details>
       </div>
     </section>

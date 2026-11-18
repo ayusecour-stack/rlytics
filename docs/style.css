@@ -45,6 +45,7 @@ h1 { font-family: var(--font-sport); font-size: clamp(34px, 4.6vw, 56px); line-h
 .lead { color: #c7cede; font-size: 18px; margin: 0 0 26px; }
 .cta { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
 .meta { margin: 0; color: var(--muted); font-size: 14px; }
+.meta.smartscreen { max-width: 460px; margin-top: 8px; font-size: 12.5px; line-height: 1.45; opacity: .85; }
 .ticks { list-style: none; padding: 0; margin: 26px 0 0; display: grid; gap: 8px; color: #c7cede; }
 .ticks li::before { content: "✓"; color: #34d399; font-weight: 800; margin-right: 10px; }
 .hero-shot { margin: 0; border-radius: 18px; overflow: hidden; border: 1px solid rgba(255, 255, 255, .12); box-shadow: 0 30px 90px rgba(0, 0, 0, .6), 0 0 0 1px rgba(47, 140, 255, .15), 0 0 80px rgba(47, 140, 255, .18); transform: perspective(1400px) rotateY(-6deg); }
