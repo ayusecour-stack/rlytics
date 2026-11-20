@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RLytics — every rank in your Rocket League lobby</title>
+  <meta name="description" content="RLytics shows the tracker of every player in your Rocket League match and puts their ranks, divisions and MMR right on your scoreboard. Free, for Windows, compatible with Easy Anti-Cheat.">
+  <meta property="og:title" content="RLytics — every rank in your Rocket League lobby">
+  <meta property="og:description" content="The tracker of every player in your match, and their ranks right on your scoreboard.">
+  <meta property="og:image" content="../img/en/partie.png">
+  <link rel="icon" href="../img/icon.png">
+  <link rel="alternate" hreflang="fr" href="https://ayusecour-stack.github.io/rlytics/">
+  <link rel="alternate" hreflang="en" href="https://ayusecour-stack.github.io/rlytics/en/">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#">
+      <img src="../img/icon.png" alt="" width="30" height="30">
+      <span>RL<b>YTICS</b></span>
+    </a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#tab">Ranks in Tab</a>
+      <a href="#steps">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a href="../" hreflang="fr" lang="fr">Français</a>
+    </nav>
+    <a class="btn small" href="https://github.com/ayusecour-stack/rlytics/releases/latest/download/RLytics-Setup.exe">Download</a>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker">For Rocket League on PC · Free</p>
+        <h1>Every rank in the lobby, <span class="grad">without leaving your match.</span></h1>
+        <p class="lead">RLytics shows the tracker of every player in your match and puts their <b>rank</b>, <b>division</b> and <b>MMR</b> right on your scoreboard when you hold Tab.</p>
+        <div class="cta">
+          <a class="btn big" id="dl" href="https://github.com/ayusecour-stack/rlytics/releases/latest/download/RLytics-Setup.exe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
+            Download for Windows
+          </a>
+          <p class="meta" id="dl-meta">Windows 10 / 11 · automatic updates</p>
+          <p class="meta smartscreen">“Windows protected your PC” message? Click <b>More info</b>, then <b>Run anyway</b>. It only shows up on the first install.</p>
+        </div>
+        <ul class="ticks">
+          <li>Compatible with Easy Anti-Cheat: nothing is injected into the game</li>
+          <li>Steam and Epic, keyboard and controller</li>
+          <li>Your MMR curve, notes on players and anti-tilt</li>
+          <li>Color themes and anime themes</li>
+          <li>Players you met before, FPS counter and music playing in game</li>
+          <li>In English and French</li>
+        </ul>
+      </div>
+      <figure class="hero-shot">
+        <img src="../img/en/partie.png" alt="The RLytics window during a 3v3 match: one square per player with their rank, division and MMR">
+      </figure>
+    </section>
+
+    <!-- ===== Features ===== -->
+    <section id="features" class="section">
+      <h2>Everything you need to know who you’re playing against</h2>
+      <div class="grid">
+        <article class="feat">
+          <div class="ico">▦</div>
+          <h3>Every player’s tracker</h3>
+          <p>As soon as the match starts, RLytics opens the tracker page of every player: 2, 4 or 6 squares depending on the mode. Click a player to see them in full, or open them in your browser. You can also see one team at a time in full screen (the 3 Blues, then the 3 Oranges).</p>
+        </article>
+        <article class="feat">
+          <div class="ico">◆</div>
+          <h3>Ranks in the Tab overlay</h3>
+          <p>Hold Tab (or your controller button): the rank logo, division and MMR show up next to each player, for the mode you’re playing. Press F9 to see their 1v1, 2v2 or 3v3 ranks.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">✓</div>
+          <h3>Compatible with Easy Anti-Cheat</h3>
+          <p>RLytics reads Rocket League’s <b>official Stats API</b>: the game itself gives the player list. Nothing is injected, the game’s memory is never read.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">↻</div>
+          <h3>Match history</h3>
+          <p>Every match is saved: score, result and players, with a link to their tracker. Handy to find that amazing teammate again… or that smurf.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">↗</div>
+          <h3>Your progress</h3>
+          <p>Your MMR curve match after match, in every ranked mode: your peak, your current streak, your day so far. Pick a goal (Grand Champion, for example) and track your progress division by division.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">✎</div>
+          <h3>Notes on players</h3>
+          <p>Toxic, good teammate, smurf, troll… Put a note on a player: next time you meet them, it shows on their card and in your in-game Tab overlay.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">♡</div>
+          <h3>Anti-tilt</h3>
+          <p>After several losses in a row, a short message suggests a break, on top of the game. A win resets the count. You can turn it off.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">✦</div>
+          <h3>Themes</h3>
+          <p>7 color themes, and anime themes with their characters: My Dress Up Darling, Akame ga Kill, The Quintessential Quintuplets, The Future Diary, Bunny Girl Senpai, Haimiya-senpai, Kaoru Hana wa Rin to Saku, Re:Zero, Mushoku Tensei, Jujutsu Kaisen (Gojo and Sukuna), Chainsaw Man (Reze and Asa Mitaka), Uma Musume (Agnes Tachyon), Roshidere (Alya and Yuki), Akame ga Kill (Esdeath), Firefly Wedding (Satoko), Kill la Kill (Ryuko), Cyberpunk Edgerunners (Lucy and David), Oshi no Ko (Ruby, Kana, Ai and Akane), The Angel Next Door (Mahiru), Darling in the Franxx (Zero Two). The home page (clock, character, full screen) is perfect on a second screen.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">⇣</div>
+          <h3>Automatic updates</h3>
+          <p>New versions download by themselves and install when you close RLytics. Nothing to do.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Ranks in Tab (illustration) ===== -->
+    <section id="tab" class="section split">
+      <div>
+        <h2>Your scoreboard, but better</h2>
+        <p>One badge per player that fits in its row: the rank logo and division on top, the MMR right below. SSL players have no division, bots get nothing.</p>
+        <p>Nothing to set up: the positions are already measured on the real scoreboard and adapt to 16:9, 21:9 and 16:10 screens. If they’re off on yours, one photo of your scoreboard is enough to fix them.</p>
+        <p>Want to see your opponents’ 1v1 or 3v3 rank during a 2v2 match? Press <b>F9</b>: the Tab ranks switch to the next mode (key can be changed in the settings).</p>
+        <p class="small">Illustration: made-up names and ranks.</p>
+      </div>
+      <div class="board" aria-label="Sample scoreboard with RLytics ranks">
+        <div class="team t0">
+          <div class="thead"><b>BLUE</b><span>SCORE</span><span>GOALS</span><span>SAVES</span></div>
+          <div class="row"><div class="badge t0"><i class="em" style="--c:#ff4f6b">GC1</i><span>DIV III</span><small><b>1586</b> MMR</small></div><div class="av"></div><b class="nm">Ayrton</b><span>412</span><span>2</span><span>1</span></div>
+          <div class="row"><div class="badge t0"><i class="em" style="--c:#ffffff">SSL</i><small><b>1902</b> MMR</small></div><div class="av"></div><b class="nm">Nova</b><span>356</span><span>1</span><span>3</span></div>
+          <div class="row"><div class="badge t0"><i class="em" style="--c:#a46bff">C2</i><span>DIV I</span><small><b>1278</b> MMR</small></div><div class="av"></div><b class="nm">Kirika</b><span>201</span><span>0</span><span>2</span></div>
+        </div>
+        <div class="team t1">
+          <div class="thead"><b>ORANGE</b><span>SCORE</span><span>GOALS</span><span>SAVES</span></div>
+          <div class="row"><div class="badge t1"><i class="em" style="--c:#ff4f6b">GC2</i><span>DIV IV</span><small><b>1712</b> MMR</small></div><div class="av"></div><b class="nm">Blitz</b><span>388</span><span>1</span><span>2</span></div>
+          <div class="row"><div class="badge t1"><i class="em" style="--c:#a46bff">C1</i><span>DIV II</span><small><b>1205</b> MMR</small></div><div class="av"></div><b class="nm">Mochi</b><span>244</span><span>1</span><span>0</span></div>
+          <div class="row"><div class="badge t1"><i class="em" style="--c:#4f86ff">D3</i><span>DIV II</span><small><b>1120</b> MMR</small></div><div class="av"></div><b class="nm">Zéphyr</b><span>130</span><span>0</span><span>1</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Screenshots ===== -->
+    <section class="section">
+      <h2>What it looks like</h2>
+      <div class="shots">
+        <figure><img src="../img/en/progression.png" alt="The Progress page: MMR curve, peak, streak and rank goal" loading="lazy"><figcaption>Your progress (Neon theme)</figcaption></figure>
+        <figure><img src="../img/en/braise.png" alt="RLytics with the Ember theme during a match" loading="lazy"><figcaption>Ember theme</figcaption></figure>
+        <figure><img src="../img/en/reglages.png" alt="RLytics settings: ranks in the Tab overlay" loading="lazy"><figcaption>Tab rank settings</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ===== Steps ===== -->
+    <section id="steps" class="section">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><b>Install RLytics.</b> Windows may show “Windows protected your PC”: the app doesn’t have a paid signature. Click “More info”, then “Run anyway”.</li>
+        <li><b>Start Rocket League in borderless windowed mode.</b> If the game’s Stats API isn’t enabled yet, RLytics offers to enable it in one click (restart the game once).</li>
+        <li><b>Play.</b> As soon as the match starts, every player’s tracker shows up. The first time, tracker.gg asks for your cookie choice: do it once, it’s remembered.</li>
+        <li><b>Hold Tab in a match.</b> Everyone’s ranks show up on your scoreboard, already well placed in 1v1, 2v2 and 3v3. If they’re off on yours (different interface size…), one photo of the scoreboard in the settings is enough to fix them.</li>
+      </ol>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section">
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details>
+          <summary>Windows shows “Windows protected your PC”, is that normal?</summary>
+          <p>Yes. Windows shows this message for programs without a paid signature (a certificate costs several hundred euros per year). Click “More info”, then “Run anyway”. It only shows up on install: automatic updates don’t trigger it.</p>
+        </details>
+        <details>
+          <summary>Can I get banned?</summary>
+          <p>RLytics doesn’t touch the game: it injects nothing, doesn’t read its memory and doesn’t even open its process. It reads Rocket League’s official Stats API (made by Psyonix for overlays) and shows a window on top of the game, like Discord or OBS. There’s no official guarantee from Psyonix, but it works the same way as allowed overlays.</p>
+        </details>
+        <details>
+          <summary>Where do the ranks come from?</summary>
+          <p>From the public pages of rocketleague.tracker.network, which RLytics shows like a browser. The Tab ranks are read from these already open pages, with no extra requests. RLytics isn’t affiliated with Tracker Network: if their site changes, an RLytics update may be needed.</p>
+        </details>
+        <details>
+          <summary>Does it work on Steam and Epic? With a controller?</summary>
+          <p>Yes to both. For a controller, pick the button that opens your scoreboard in the settings. PlayStation, Xbox and Switch players in your match show up too.</p>
+        </details>
+        <details>
+          <summary>Does it slow down my game?</summary>
+          <p>Pages load once at the start of the match, then they’re paused (still image) while Rocket League is in front, and theme animations stop during matches. If your PC is tight, turn off “Load trackers automatically” in the settings.</p>
+        </details>
+        <details>
+          <summary>Do I need an account? Where does my data go?</summary>
+          <p>No account. Everything stays on your PC: settings, history, notes on players, your MMR curve, rank positions. RLytics only connects to tracker.gg (player pages), AniList (anime theme images) and GitHub (updates).</p>
+        </details>
+        <details>
+          <summary>Is RLytics available in French?</summary>
+          <p>Yes: Settings → Language. In “Auto”, RLytics follows your Windows language.</p>
+        </details>
+        <details>
+          <summary>How do I get new versions?</summary>
+          <p>Automatically: RLytics checks at startup, then every 3 hours, downloads the new version in the background and installs it when you close it (or right away with the “Restart” button).</p>
+        </details>
+        <details>
+          <summary>I found a bug, what do I do?</summary>
+          <p>In RLytics: Settings → About → “Open the log”. This file explains what happened (it stays on your PC, nothing is sent). Describe the problem on <a href="https://github.com/ayusecour-stack/rlytics/issues">the issues page</a> and attach the log if you want.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section final">
+      <h2>Ready for your next match?</h2>
+      <a class="btn big" href="https://github.com/ayusecour-stack/rlytics/releases/latest/download/RLytics-Setup.exe">Download RLytics</a>
+      <p class="meta" id="dl-meta-2"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>RLytics isn’t affiliated with Psyonix, Epic Games or Tracker Network. Rocket League is a trademark of Psyonix. Anime theme images come from AniList and belong to their owners; they aren’t included in RLytics.</p>
+    <p><a href="https://github.com/ayusecour-stack/rlytics/releases">All versions</a></p>
+  </footer>
+
+  <script src="../app.js"></script>
+</body>
+</html>

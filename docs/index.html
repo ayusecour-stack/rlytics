@@ -9,6 +9,8 @@
   <meta property="og:description" content="Le tracker de chaque joueur de ta partie, et leurs rangs directement dans ton tableau des scores.">
   <meta property="og:image" content="img/partie.png">
   <link rel="icon" href="img/icon.png">
+  <link rel="alternate" hreflang="fr" href="https://ayusecour-stack.github.io/rlytics/">
+  <link rel="alternate" hreflang="en" href="https://ayusecour-stack.github.io/rlytics/en/">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,6 +26,7 @@
       <a href="#tab">Rangs dans le Tab</a>
       <a href="#etapes">Comment ça marche</a>
       <a href="#faq">FAQ</a>
+      <a href="en/" hreflang="en" lang="en">English</a>
     </nav>
     <a class="btn small" href="https://github.com/ayusecour-stack/rlytics/releases/latest/download/RLytics-Setup.exe">Télécharger</a>
   </header>
@@ -46,8 +49,10 @@
         <ul class="ticks">
           <li>Compatible Easy Anti-Cheat : rien n'est injecté dans le jeu</li>
           <li>Steam et Epic, clavier et manette</li>
+          <li>Courbe de ton MMR, notes sur les joueurs et anti-tilt</li>
           <li>Thèmes de couleurs et thèmes anime</li>
           <li>Joueurs déjà croisés, compteur FPS et musique en cours en jeu</li>
+          <li>En français et en anglais</li>
         </ul>
       </div>
       <figure class="hero-shot">
@@ -78,6 +83,21 @@
           <div class="ico">↻</div>
           <h3>Historique des parties</h3>
           <p>Chaque partie est enregistrée : score, résultat et joueurs, avec un lien vers leur tracker. Pratique pour retrouver ce coéquipier incroyable… ou ce smurf.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">↗</div>
+          <h3>Ta progression</h3>
+          <p>La courbe de ton MMR partie après partie, dans chaque mode classé : ton record, ta série en cours, ton bilan du jour. Choisis un objectif (par exemple Grand Champion) et suis ta progression division par division.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">✎</div>
+          <h3>Notes sur les joueurs</h3>
+          <p>Toxique, bon mate, smurf, troll… Mets une note sur un joueur : la prochaine fois que tu tombes sur lui, elle s’affiche sur sa carte et dans ton Tab en jeu.</p>
+        </article>
+        <article class="feat">
+          <div class="ico">♡</div>
+          <h3>Anti-tilt</h3>
+          <p>Après plusieurs défaites d’affilée, un petit message te propose une pause, par-dessus le jeu. Une victoire remet le compteur à zéro. Tu peux le couper.</p>
         </article>
         <article class="feat">
           <div class="ico">✦</div>
@@ -121,9 +141,9 @@
     <section class="section">
       <h2>À quoi ça ressemble</h2>
       <div class="shots">
-        <figure><img src="img/neon.png" alt="RLytics avec le thème Néon" loading="lazy"><figcaption>Thème Néon</figcaption></figure>
-        <figure><img src="img/braise.png" alt="RLytics avec le thème Braise" loading="lazy"><figcaption>Thème Braise</figcaption></figure>
-        <figure><img src="img/reglages.png" alt="Les réglages de RLytics : overlay en jeu, mises à jour" loading="lazy"><figcaption>Réglages de l'overlay en jeu</figcaption></figure>
+        <figure><img src="img/progression.png" alt="La page Progression : courbe du MMR, record, série et objectif de rang" loading="lazy"><figcaption>Ta progression (thème Néon)</figcaption></figure>
+        <figure><img src="img/braise.png" alt="RLytics avec le thème Braise pendant une partie" loading="lazy"><figcaption>Thème Braise</figcaption></figure>
+        <figure><img src="img/reglages.png" alt="Les réglages de RLytics : rangs dans le Tab" loading="lazy"><figcaption>Réglages des rangs du Tab</figcaption></figure>
       </div>
     </section>
 
@@ -164,7 +184,11 @@
         </details>
         <details>
           <summary>Il faut un compte ? Mes données partent où ?</summary>
-          <p>Pas de compte. Tout reste sur ton PC : réglages, historique, emplacement des rangs. RLytics se connecte seulement à tracker.gg (les pages des joueurs), à AniList (images des thèmes anime) et à GitHub (mises à jour).</p>
+          <p>Pas de compte. Tout reste sur ton PC : réglages, historique, notes sur les joueurs, courbe de ton MMR, emplacement des rangs. RLytics se connecte seulement à tracker.gg (les pages des joueurs), à AniList (images des thèmes anime) et à GitHub (mises à jour).</p>
+        </details>
+        <details>
+          <summary>RLytics existe en anglais ?</summary>
+          <p>Oui : Réglages → Langue · Language. En « Auto », RLytics suit la langue de Windows.</p>
         </details>
         <details>
           <summary>Comment j'ai les nouvelles versions ?</summary>
